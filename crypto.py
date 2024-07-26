@@ -141,7 +141,7 @@ proof_no = blockchain.proof_of_work(last_proof_no)
 
 blockchain.new_data(
     sender="0",  #it implies that this node has created a new block
-    recipient="Quincy Larson",  #let's send Quincy some coins!
+    recipient="Jane Doe",  #let's send Jane Doe some coins!
     quantity=
     1,  #creating a new block (or identifying the proof number) is awarded with 1
 )
